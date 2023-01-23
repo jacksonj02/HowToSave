@@ -1,0 +1,207 @@
+
+
+h2 {
+/* left: 350px; */
+text-align: center;
+-webkit-text-stroke: .5px green; /* width and color */
+opacity: 0.9999999;
+font-family: sans; color: black;
+
+}
+h3{
+  margin-top: 300px;
+  text-align: center;
+  font-size: 35px;
+-webkit-text-stroke: .5px green; /* width and color */
+opacity: 0.9999999;
+
+font-family: sans; color: black;
+ 
+}
+#welcome{
+  top: 0px;
+  margin-left: 250px;
+position:absolute;
+  text-align: center;
+  font-size: 70px;
+  -webkit-text-stroke: 0.9px green; /* width and color */
+  font-family: sans; color: white;
+  font-weight: 1000px;
+  
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+.cashFell{
+  position: absolute;
+}
+.logo{
+  margin-left: 30px;
+}
+#cashFalling{
+  /* background-image: url(/assets/images/cashFalling.png); */
+  position: relative;
+
+text-align: left;
+color: white;
+border: none;
+width: 100%;
+
+}
+#ol{
+
+  position: absolute;
+  top: 150px;
+  color: black;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 100px 250px 200px 100px;
+  gap: 100px;
+
+}
+#oln{
+  position:absolute;
+  top: 500px;
+  color: black;
+  display:grid;
+  gap: 20px;
+  
+}
+#menu1, #menu2, #menu3{
+  width: 15px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+
+}
+#one{
+border-style: solid;
+  border-width: 2px;
+border-radius: 10px;
+list-style-position: inside;
+padding: 10px 20px;
+background-color: gold;
+color: black;
+border-color: gold;
+transition: border-width 0.6s 0.6s 0.5s 0.6s linear;
+
+}
+
+
+#two{
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  list-style-position: inside;
+  padding: 10px 20px;
+  color: black;
+  border-color: gold;
+  font-size: 17px;
+background-color: gold;
+
+
+}
+#three{
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  list-style-position: inside;
+  padding: 10px 20px;
+  background-color: gold;
+  border-color: gold;
+  color: black;
+  font-size: 17px;
+
+
+}
+#four{
+  border-radius: 10px;
+  list-style-position: inside;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px 20px;
+  background-color: gold;
+  border-color: gold;
+  color: black;
+  font-size: 17px;
+
+}
+#nOne{
+  border-radius: 10px;
+  list-style-position: inside;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px 20px;
+  background-color: lightgreen;  
+  border-color: lightgreen;
+
+  text-align: center;
+
+}
+#nTwo{
+  border-radius: 10px;
+  list-style-position: inside;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px 20px;
+  background-color: lightgreen;
+  border-color: lightgreen;
+  text-align: center;
+}
+#helpful{
+  margin-top: 200px;
+  -webkit-text-stroke: .5px green;
+  font-family: sans; color: black;
+
+}
+#vid1{
+margin-top: 30px;
+margin-left: 50px;
+margin-bottom: 100px;
+margin-right: 50px;
+}
+#vidText1{
+  color: white;
+  position: relative;
+  top: -180px;
+  left: 100px;
+}
+#eyl{
+color: white;
+position: relative;
+top: -215px;
+left: 590px;
+}
+#kris{
+  position: relative;
+top: -250px;
+left: 1105px;
+  color: white;
+}
+#inline{
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  display:inline-flex;
+  border: solid;
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+}
+footer{
+  background-color: black;
+  
+  color: white
+}
+
