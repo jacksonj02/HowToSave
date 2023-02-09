@@ -11,7 +11,7 @@ font-family: sans; color: black;
 h3{
   margin-top: 300px;
   text-align: center;
-  font-size: 35px;
+  font-size: 35;
 -webkit-text-stroke: .5px green; /* width and color */
 opacity: 0.9999999;
 
@@ -23,7 +23,7 @@ font-family: sans; color: black;
   margin-left: 250px;
 position:absolute;
   text-align: center;
-  font-size: 70px;
+  font-size: 70;
   -webkit-text-stroke: 0.9px green; /* width and color */
   font-family: sans; color: white;
   font-weight: 1000px;
@@ -36,6 +36,7 @@ position:absolute;
   left: 0;
   right: 0;
   height: 100px;
+  width: 200%;
   display: flex;
   align-items: center;
   text-align: center;
@@ -43,6 +44,38 @@ position:absolute;
   color: white;
   font-weight: 600;
 }
+.dropbtn{
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  left: 0;
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+left:0;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  left:0;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 .cashFell{
   position: absolute;
 }
@@ -198,6 +231,21 @@ left: 1105px;
   background-color: black;
   overflow: auto;
   white-space: nowrap;
+}
+#arrowRight{
+  position: relative;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  right: 20px;
+  top: 200px;
+height: 10px;
+width: 10px;
+transform: translateX(-25%);
+
 }
 footer{
   background-color: black;
