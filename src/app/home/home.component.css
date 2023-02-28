@@ -1,0 +1,1064 @@
+h2 {
+    /* left: 350px; */
+    text-align: center;
+    -webkit-text-stroke: .5px green; /* width and color */
+    opacity: 0.9999999;
+    font-family: sans; color: black;
+   
+    
+    }
+    h3{
+      margin-top: 300px;
+      text-align: center;
+      font-size: 35;
+    -webkit-text-stroke: .5px green; /* width and color */
+    opacity: 0.9999999;
+    border: solid;
+    background-color: white;
+    border-color: black;
+    font-family: sans; color: black;
+     
+    }
+    #welcome{
+      top: 0px;
+      margin-left: 70px;
+    position:absolute;
+      text-align: center;
+      -webkit-text-stroke: 0.9px green; /* width and color */
+      font-family: sans; color: white;
+      font-weight: 500px;
+      display: flex;
+      
+    }
+    
+    .toolbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100px;
+      width: 200%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-weight: 600;
+    }
+    .dropbtn{
+      background-color: #04AA6D;
+      color: white;
+      padding: 5px;
+      font-size: 16px;
+      border: none;
+      margin-left: 275px;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      left: 0;
+    
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top:45px;
+    left:220px;
+      background-color: #f1f1f1;
+      min-width: 90px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      left:100px;
+    }
+    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    .cashFell{
+      position: absolute;
+    }
+    .logo{
+      margin-left: 7px;
+      height:50px;
+    width:50px;
+    
+    }
+    #cashFalling{
+      /* background-image: url(/assets/images/cashFalling.png); */
+      position: relative;
+    
+    text-align: left;
+    color: white;
+    border: none;
+    width: 100%;
+    
+    }
+    #ol{
+    
+      position: absolute;
+      top: 150px;
+      color: black;
+      display: grid;
+      text-align: center;
+      grid-template-columns: 100px 250px 200px 100px;
+      gap: 50px;
+    
+      padding: 10px;
+      width: 100%;
+      overflow: auto;
+      /* white-space: nowrap; */
+    }
+    #oln{
+      position:absolute;
+      top: 500px;
+      color: black;
+      display:grid;
+      gap: 20px;
+      
+    }
+    #fa-solid.fa-house{
+      color: red;
+    }
+    #menu1, #menu2, #menu3{
+      width: 15px;
+      height: 3px;
+      background-color: black;
+      margin: 5px;
+    
+    }
+    #one{
+    border-style: solid;
+      border-width: 2px;
+    border-radius: 10px;
+    list-style-position: inside;
+    padding: 10px 20px;
+    background-color: gold;
+    color: black;
+    border-color: gold;
+    transition: border-width 0.6s 0.6s 0.5s 0.6s linear;
+    
+    }
+    
+    
+    #two{
+      border-style: solid;
+      border-radius: 10px;
+      border-width: 2px;
+      list-style-position: inside;
+      padding: 10px 20px;
+      color: black;
+      border-color: gold;
+      font-size: 17px;
+    background-color: gold;
+    
+    
+    }
+    #three{
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 2px;
+      list-style-position: inside;
+      padding: 10px 20px;
+      background-color: gold;
+      border-color: gold;
+      color: black;
+      font-size: 17px;
+    
+    
+    }
+    #four{
+      border-radius: 10px;
+      list-style-position: inside;
+      border-style: solid;
+      border-width: 2px;
+      padding: 10px 20px;
+      background-color: gold;
+      border-color: gold;
+      color: black;
+      font-size: 17px;
+    
+    }
+    #nOne{
+      border-radius: 10px;
+      list-style-position: inside;
+      border-style: solid;
+      border-width: 2px;
+      padding: 10px 20px;
+      background-color: lightgreen;  
+      border-color: lightgreen;
+    
+      text-align: center;
+    
+    }
+    #nTwo{
+      border-radius: 10px;
+      list-style-position: inside;
+      border-style: solid;
+      border-width: 2px;
+      padding: 10px 20px;
+      background-color: lightgreen;
+      border-color: lightgreen;
+      text-align: center;
+    }
+    #helpful{
+      margin-top: 200px;
+      -webkit-text-stroke: .5px green;
+      font-family: sans; color: black;
+    
+    }
+    #vid1{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    }
+    #vidText1{
+      color: white;
+      position: absolute;
+      top: 360px;
+      left: 45px;
+    }
+    #eyl{
+    color: white;
+    position: absolute;
+    top: 360px;
+    left: 490px;
+    text-align: center;
+  
+    }
+    #kris{
+      position: absolute;
+      text-align: center;
+    top: 360px;
+    left: 875px;
+      color: white;
+    }
+    #inline{
+      position: relative;
+      margin-top: 25px;
+      margin-bottom: 100px;
+      display:inline-flex;
+      border: solid;
+      background-color: black;
+      overflow: auto;
+      white-space: nowrap;
+      width: 100%;
+  
+    }
+    #textAlign{
+      overflow: auto;
+      white-space: nowrap;
+      width: 100%;
+    }
+    /* #arrowRight{
+      position: relative;
+      border: solid white;
+      border-width: 0px 3px 3px 0px;
+      display: inline-block;
+      padding: 30px;
+      transform: rotate(-45deg);    
+      -webkit-transform: rotate(-45deg);
+      right: 20px;
+      top: 20px;
+    height: 30px;
+    width: 30px;
+    transform: translateX(-25%);
+  background-color: green;
+    
+    } */
+    footer{
+      background-color: black;
+      
+      color: white
+    }
+  
+  @media only screen and (min-width: 700px){
+    h2 {
+  
+    text-align: center;
+    -webkit-text-stroke: .5px green; /* width and color */
+    opacity: 0.9999999;
+    font-family: sans; color: black;
+    
+    }
+    h3{
+      margin-top: 300px;
+      text-align: center;
+      font-size: 35;
+    -webkit-text-stroke: .5px green; /* width and color */
+    opacity: 0.9999999;
+    
+    font-family: sans; color: black;
+     
+    }
+    #welcome{
+      top: 0px;
+      margin-left: 300px;
+    position:absolute;
+      text-align: center;
+      font-size: 70;
+      -webkit-text-stroke: 0.9px green; /* width and color */
+      font-family: sans; color: white;
+      font-weight: 1000px;
+      
+    }
+    
+    .toolbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100px;
+      width: 200%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-weight: 600;
+    }
+    .dropbtn{
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      margin-left: 600px;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      left: 0;
+    
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 65px;
+    margin-left:350px;
+      background-color: #f1f1f1;
+      min-width: 50px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      left:0;
+    }
+    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    .cashFell{
+      position: absolute;
+    }
+    .logo{
+      margin-left: 30px;
+      height:100px;
+      width:100px;
+    }
+    #cashFalling{
+      /* background-image: url(/assets/images/cashFalling.png); */
+      position: relative;
+    
+    text-align: left;
+    color: white;
+    border: none;
+    width: 100%;
+    
+    }
+    #ol{
+    
+      position: absolute;
+      top: 150px;
+      color: black;
+      display: grid;
+      text-align: center;
+      grid-template-columns: 100px 250px 200px 100px;
+      gap: 50px;
+    
+    }
+    #oln{
+      position:absolute;
+      top: 500px;
+      color: black;
+      display:grid;
+      gap: 20px;
+      
+    }
+    #menu1, #menu2, #menu3{
+      width: 15px;
+      height: 3px;
+      background-color: black;
+      margin: 5px;
+    
+    }
+    #one{
+    border-style: solid;
+      border-width: 2px;
+    border-radius: 10px;
+    list-style-position: inside;
+    padding: 10px 20px;
+    background-color: gold;
+    color: black;
+    border-color: gold;
+    transition: border-width 0.6s 0.6s 0.5s 0.6s linear;
+    
+    }
+    
+    
+    #two{
+      border-style: solid;
+      border-radius: 10px;
+      border-width: 2px;
+      list-style-position: inside;
+      padding: 10px 20px;
+      color: black;
+      border-color: gold;
+      font-size: 17px;
+    background-color: gold;
+    
+    
+    }
+    #three{
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 2px;
+      list-style-position: inside;
+      padding: 10px 20px;
+      background-color: gold;
+      border-color: gold;
+      color: black;
+      font-size: 17px;
+    
+    
+    }
+    #four{
+      border-radius: 10px;
+      list-style-position: inside;
+      border-style: solid;
+      border-width: 2px;
+      padding: 10px 20px;
+      background-color: gold;
+      border-color: gold;
+      color: black;
+      font-size: 17px;
+    
+    }
+    #nOne{
+      border-radius: 10px;
+      list-style-position: inside;
+      border-style: solid;
+      border-width: 2px;
+      padding: 10px 20px;
+      background-color: lightgreen;  
+      border-color: lightgreen;
+    
+      text-align: center;
+    
+    }
+    #nTwo{
+      border-radius: 10px;
+      list-style-position: inside;
+      border-style: solid;
+      border-width: 2px;
+      padding: 10px 20px;
+      background-color: lightgreen;
+      border-color: lightgreen;
+      text-align: center;
+    }
+    #helpful{
+      margin-top: 200px;
+      -webkit-text-stroke: .5px green;
+      font-family: sans; color: black;
+    
+    }
+    #vid1{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    }
+    #vidText1{
+      color: white;
+      position: absolute;
+      top: 350px;
+      left: 40px;
+    }
+    #eyl{
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 485px;
+    }
+    #kris{
+      position: absolute;
+    top: 350px;
+    left: 875px;
+      color: white;
+    }
+    #inline{
+      position: relative;
+      margin-top: 25px;
+      margin-bottom: 100px;
+      display:inline-flex;
+      border: solid;
+      background-color: black;
+      overflow: auto;
+      white-space: nowrap;
+      row-gap: 30px;
+    }
+    /* #arrowRight{
+      position: relative;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      right: 20px;
+      top: 200px;
+    height: 10px;
+    width: 10px;
+    transform: translateX(-25%);
+    
+    } */
+    footer{
+      background-color: black;
+      
+      color: white
+    }
+  }
+  @media only screen and (min-width: 1300px){
+  h2 {
+  /* left: 350px; */
+  text-align: center;
+  -webkit-text-stroke: .5px green; /* width and color */
+  opacity: 0.9999999;
+  font-family: sans; color: black;
+  
+  }
+  h3{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 35;
+  -webkit-text-stroke: .5px green; /* width and color */
+  opacity: 0.9999999;
+  
+  font-family: sans; color: black;
+   
+  }
+  #welcome{
+    top: 0px;
+    margin-left: 550px;
+  position:absolute;
+    text-align: center;
+    font-size: 70;
+    -webkit-text-stroke: 0.9px green; /* width and color */
+    font-family: sans; color: white;
+    font-weight: 1000px;
+    
+  }
+  
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 200%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+  }
+  .dropbtn{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-left: 1000px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    left: 0;
+  
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  margin-left: 720px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    left:0;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .cashFell{
+    position: absolute;
+  }
+  .logo{
+    margin-left: 30px;
+  }
+  #cashFalling{
+    /* background-image: url(/assets/images/cashFalling.png); */
+    position: relative;
+  
+  text-align: left;
+  color: white;
+  border: none;
+  width: 100%;
+  
+  }
+  #ol{
+  
+    position: absolute;
+    top: 150px;
+    color: black;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 100px 350px 300px 200px;
+    gap: 100px;
+  
+  }
+  #oln{
+    position:absolute;
+    top: 500px;
+  width: 1000px;
+    color: black;
+    display:grid;
+    gap: 20px;
+    align-items: center;
+    padding-left: 137px;
+    
+  }
+  #menu1, #menu2, #menu3{
+    width: 15px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+  
+  }
+  #one{
+  border-style: solid;
+    border-width: 2px;
+  border-radius: 10px;
+  list-style-position: inside;
+  padding: 10px 20px;
+  background-color: gold;
+  color: black;
+  border-color: gold;
+  transition: border-width 0.6s 0.6s 0.5s 0.6s linear;
+  
+  }
+  
+  
+  #two{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    list-style-position: inside;
+    padding: 10px 20px;
+    color: black;
+    border-color: gold;
+    font-size: 17px;
+  background-color: gold;
+  
+  
+  }
+  #three{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    list-style-position: inside;
+    padding: 10px 20px;
+    background-color: gold;
+    border-color: gold;
+    color: black;
+    font-size: 17px;
+  
+  
+  }
+  #four{
+    border-radius: 10px;
+    list-style-position: inside;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 20px;
+    background-color: gold;
+    border-color: gold;
+    color: black;
+    font-size: 17px;
+  
+  }
+  #nOne{
+    border-radius: 10px;
+    list-style-position: inside;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 20px;
+    background-color: lightgreen;  
+    border-color: lightgreen;
+  
+    text-align: center;
+  
+  }
+  #nTwo{
+    border-radius: 10px;
+    list-style-position: inside;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    text-align: center;
+  }
+  #helpful{
+    margin-top: 200px;
+    -webkit-text-stroke: .5px green;
+    font-family: sans; color: black;
+  
+  }
+  #vid1{
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  }
+  #vidText1{
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+  }
+  #eyl{
+  color: white;
+  position: absolute;
+  top: 350px;
+  left: 530px;
+  }
+  #kris{
+    position: absolute;
+  top: 350px;
+  left: 930px;
+    color: white;
+  }
+  #inline{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    display:inline-flex;
+    border: solid;
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  #arrowRight{
+    position: relative;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: 20px;
+    top: 200px;
+  height: 10px;
+  width: 10px;
+  transform: translateX(-25%);
+  
+  }
+  footer{
+    background-color: black;
+    
+    color: white
+  }
+  }
+  @media only screen and (min-width: 1800px){
+    h2 {
+    /* left: 350px; */
+    text-align: center;
+    -webkit-text-stroke: .5px green; /* width and color */
+    opacity: 0.9999999;
+    font-family: sans; color: black;
+    
+    }
+    h3{
+      margin-top: 300px;
+      text-align: center;
+      font-size: 35;
+    -webkit-text-stroke: .5px green; /* width and color */
+    opacity: 0.9999999;
+    
+    font-family: sans; color: black;
+     
+    }
+    #welcome{
+      top: 0px;
+      margin-left: 850px;
+    position:absolute;
+      text-align: center;
+      font-size: 70;
+      -webkit-text-stroke: 0.9px green; /* width and color */
+      font-family: sans; color: white;
+      font-weight: 1000px;
+      
+    }
+    
+    .toolbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100px;
+      width: 200%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-weight: 600;
+    }
+    .dropbtn{
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      margin-left: 1650px;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      left: 0;
+    
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+    margin-left: 1380px;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      left:0;
+    }
+    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    .cashFell{
+      position: absolute;
+    }
+    .logo{
+      margin-left: 30px;
+    }
+    #cashFalling{
+      /* background-image: url(/assets/images/cashFalling.png); */
+      position: relative;
+    
+    text-align: left;
+    color: white;
+    border: none;
+    width: 100%;
+    
+    }
+    #ol{
+    
+      position: absolute;
+      top: 100px;
+      color: black;
+      display: grid;
+      text-align: center;
+      grid-template-columns: 200px 400px 300px 200px;
+      gap: 150px;
+      padding-left: 150px;
+    
+    }
+    #oln{
+      position:absolute;
+      top: 500px;
+    width: 1000px;
+      color: black;
+      display:grid;
+      gap: 20px;
+      align-items: center;
+      padding-left: 137px;
+      
+    }
+    #menu1, #menu2, #menu3{
+      width: 15px;
+      height: 3px;
+      background-color: black;
+      margin: 5px;
+    
+    }
+    #one{
+    border-style: solid;
+      border-width: 2px;
+    border-radius: 10px;
+    list-style-position: inside;
+    padding: 10px 20px;
+    background-color: gold;
+    color: black;
+    font-size: 30px;
+    border-color: gold;
+    transition: border-width 0.6s 0.6s 0.5s 0.6s linear;
+    
+    }
+    
+    
+    #two{
+      border-style: solid;
+      border-radius: 10px;
+      border-width: 2px;
+      list-style-position: inside;
+      padding: 10px 20px;
+      color: black;
+      border-color: gold;
+      font-size: 25px;
+    background-color: gold;
+    
+    
+    }
+    #three{
+      border-radius: 10px;
+      border-style: solid;
+      border-width: 2px;
+      list-style-position: inside;
+      padding: 10px 20px;
+      background-color: gold;
+      border-color: gold;
+      color: black;
+      font-size: 25px;
+    
+    
+    }
+    #four{
+      border-radius: 10px;
+      list-style-position: inside;
+      border-style: solid;
+      border-width: 2px;
+      padding: 10px 20px;
+      background-color: gold;
+      border-color: gold;
+      color: black;
+      font-size: 25px;
+    
+    }
+    
+    #nOne{
+      border-radius: 10px;
+      list-style-position: inside;
+      border-style: solid;
+      border-width: 2px;
+      padding: 20px 20px;
+      background-color: lightgreen;  
+      border-color: lightgreen;
+    font-size: 24px;
+      text-align: center;
+      margin-top: 0px;
+      margin-left: 600px;
+    
+    }
+    #nTwo{
+      border-radius: 10px;
+      list-style-position: inside;
+      border-style: solid;
+      border-width: 2px;
+      padding: 20px 20px;
+      font-size: 24px;
+      margin-top: -35px;
+      margin-left: 600px;
+      background-color: lightgreen;
+      border-color: lightgreen;
+      text-align: center;
+    }
+    #helpful{
+      margin-top: 200px;
+      -webkit-text-stroke: .5px green;
+      font-family: sans; color: black;
+    
+    }
+    #vid1{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    }
+    #vidText1{
+      color: white;
+      position: absolute;
+      top: 350px;
+      left: 110px;
+    }
+    #eyl{
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 770px;
+    }
+    #kris{
+      position: absolute;
+    top: 350px;
+    left: 1375px;
+      color: white;
+    }
+    #inline{
+      position: relative;
+      margin-top: 25px;
+      margin-bottom: 100px;
+      display:inline-flex;
+      border: solid;
+      background-color: black;
+      overflow: auto;
+      white-space: nowrap;
+      gap: 100px;
+    }
+    /* #arrowRight{
+      position: relative;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      right: 20px;
+      top: 200px;
+    height: 10px;
+    width: 10px;
+    transform: translateX(-25%);
+    
+    } */
+    footer{
+      background-color: black;
+      
+      color: white
+    }
+    }
+    
